@@ -16,7 +16,7 @@ body{
 /* SECCION I N I C I O */
 .inicio{
     background:linear-gradient(to right, #37394b, #507291);
-    clip-path: polygon(0 0, 100% 0, 100% 46%, 47% 84%, 0 45%);
+    clip-path: polygon(0 0, 100% 0, 100% 55%, 53% 100%, 0 53%);
     height: 90vh;
     padding:  0 20px;
 }
