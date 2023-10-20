@@ -28,6 +28,15 @@ function cargarAnimaciones(){
             lineCap:"circle",
             animate:2000,
         });
+        $('.chart4').easyPieChart({
+            size:160,
+            barColor:"#ff5b00",
+            scaleLength:0,
+            lineWidth:15,
+            tackColor:"#525151",
+            lineCap:"circle",
+            animate:2000,
+        })
      })
 }
 //Función para filtrar las categorías de los trabajos
@@ -47,6 +56,8 @@ function verCategoria(cat){
     links[1].className = "";
     links[2].className = "";
     links[3].className = "";
+    links[4].className = "";
+    links[5].className = "";
 
     const itemSeleccionado = document.getElementById(cat);
     itemSeleccionado.className = "borde";
@@ -61,6 +72,7 @@ function efectoHabilidades(){
         habilidades[0].classList.add("chart1");
         habilidades[1].classList.add("chart2");
         habilidades[2].classList.add("chart3");
+        habilidades[3].classList.add("chart4");
         
         cargarAnimaciones();
     }
